@@ -59,8 +59,13 @@
     <element xsi:type="archimate:Requirement" name="Validar contrato de suporte" id="id-642fd4e25d9b4ebfa48ed8e437a1fe69"/>
     <element xsi:type="archimate:Constraint" name="Pesquisar pelo CNPJ da empresa o cliente para confirmar contrato ativo de suporte e pesquisar cpf de quem ligou para confirma que é funcionário" id="id-165f9a767a17497e8f48e81536738e24"/>
   </folder>
-  <folder name="Implementation &amp; Migration" id="id-c4006428c8c140ee934d95ba9240c658" type="implementation_migration"/>
-  <folder name="Other" id="id-ae3a4b023c3c403f850d6252c011bcd6" type="other"/>
+  <folder name="Implementation &amp; Migration" id="id-c4006428c8c140ee934d95ba9240c658" type="implementation_migration">
+    <element xsi:type="archimate:WorkPackage" name="Sede da SoftwareHouse" id="id-dc8c316c094b42c3836d17966007971b"/>
+  </folder>
+  <folder name="Other" id="id-ae3a4b023c3c403f850d6252c011bcd6" type="other">
+    <element xsi:type="archimate:Location" name="Sede da SoftwareHouse" id="id-3053f479c8214ac087b39aae85287e87"/>
+    <element xsi:type="archimate:Location" name="Home Office" id="id-954449a9827e4f63819056dd7e7ae151"/>
+  </folder>
   <folder name="Relations" id="id-4a9293658a7448df840ef85290185a27" type="relations">
     <element xsi:type="archimate:AssociationRelationship" id="id-4229cc3bee5a45878addb651282b64bd" source="id-d1830572f02249c5820faa8c236513ed" target="id-3b99c1a231c742b084556725ddd90d00"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4f6017284b714a6bacce18e545b066be" source="id-d1830572f02249c5820faa8c236513ed" target="id-623e3a50e61344c0b0c7cdc338165f80"/>
@@ -332,6 +337,12 @@
         <bounds x="678" y="1284" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-4c4147c9e76648cda6242788abf466dc" source="id-d792979636244cc4acc3f519d842025e" target="id-7b42299c33444327953549fec50c3aae" archimateRelationship="id-673c8de4da10468795fd108d5b4efdbf"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-fe2d0db7673a45129dfd691e9d70b1fa" source="id-d792979636244cc4acc3f519d842025e" target="id-eab6a6daaf014b93a4ac56a0295235b1" archimateRelationship="id-e102c0b6e5694ff5ba1f2174da90d482"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-11bb216e7122401f84135b785733decf" archimateElement="id-3053f479c8214ac087b39aae85287e87">
+        <bounds x="-875" y="1020" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-aaf771f7b213455bae54a05d5017f94a" archimateElement="id-954449a9827e4f63819056dd7e7ae151">
+        <bounds x="-875" y="1092" width="120" height="55"/>
       </child>
     </element>
   </folder>
